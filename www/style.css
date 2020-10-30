@@ -6,7 +6,8 @@ body{
 #clock { 
   font-size: 25px; 
   width: 200px; 
-  /* margin: 0px;  */
+  margin: auto; 
+  margin-top: 10px;
   text-align: center; 
   border: 2px solid black; 
   border-radius: 20px; 
