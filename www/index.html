@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Pattern Matcher</title>
+  <title>Covid</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   
@@ -12,8 +12,6 @@
 
 </head>
 <body>
-
-
 	<nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
@@ -22,13 +20,13 @@
       <label class="logo">COVID</label>
       <ul>
 <li><a class="active" href="#">HOME</a></li>
-<li><a href="#">ADMIN</a></li>
+<li><a href="https://www.mohfw.gov.in/pdf/FAQ.pdf">FAQ</a></li>
 <li><a href="#">TEACHER</a></li>
 </ul>
 </nav>
 
 <div id="clock">8:10:45</div> 
-
+<div id="date"></div>
 <script> 
     setInterval(showTime, 1000); 
     function showTime() { 
@@ -57,8 +55,17 @@
         document.getElementById("clock") 
             .innerHTML = currentTime; 
     } 
+    showTime();
+    
+    var sDate = new Date();
+    var dd = sDate.getDate();
+    var mm = sDate.getMonth()+1 ;
+    var y = sDate.getFullYear();
+    
+    var FormattedDate = dd + '/'+ mm + '/'+ y;
+    document.getElementById("date").innerHTML = FormattedDate;
+  
 
-    showTime(); 
 </script> 
 
 <div id='top'>

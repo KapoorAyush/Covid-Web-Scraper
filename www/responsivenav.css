@@ -37,6 +37,8 @@ nav ul li a{
   font-family: sans-serif;
 }
 a.active,a:hover{
+  color: black;
+  text-decoration: none;
   background: #ffeb3b;
   transition: .5s;
 }

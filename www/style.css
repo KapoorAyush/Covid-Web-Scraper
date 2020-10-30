@@ -12,7 +12,11 @@ body{
   border: 2px solid black; 
   border-radius: 20px; 
 } 
-
+#date{
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
 #top {
   text-align: center;
   padding: 5px;
