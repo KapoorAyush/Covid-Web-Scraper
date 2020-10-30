@@ -28,10 +28,6 @@ def get_corona_detail_of_india():
 
     all_details = (active_no,dis_no,death_no)
     return all_details
-    # print(all_details)
-    # print(cured)
-    # print(deaths)
-    # print(migrated)
 
 
 app = Flask(__name__)
