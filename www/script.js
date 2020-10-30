@@ -27,12 +27,13 @@ class NameForm extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit} className="form">
-        <input type="submit" value="Scrap" className="btn btn-outline-dark" id="submitButton"/>
-        <ul id="points">
-          <li>Active : {this.state.active}</li>
-          <li>Discharged :{this.state.discharged}</li>
-          <li>Deaths : {this.state.deaths}</li>
-        </ul>
+        
+        <div id="points">
+          <h2 >Active Cases  :  <span id="h21">{this.state.active}</span></h2>
+          <h2 >Discharged Cases  :  <span id="h22">{this.state.discharged}</span></h2>
+          <h2 >Death Cases  :  <span id="h23">{this.state.deaths}</span></h2>
+        </div>
+        <input type="submit" value="Refresh" className="btn btn-outline-dark" id="submitButton"/>
       </form>
     );
   }
