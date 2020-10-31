@@ -26,6 +26,7 @@ nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 2px;
+
 }
 nav ul li a{
   color: black;
@@ -36,12 +37,21 @@ nav ul li a{
   /* text-transform: uppercase; */
   font-family: sans-serif;
 }
+
 a.active,a:hover{
   color: black;
   text-decoration: none;
   background: #ffeb3b;
   transition: .5s;
 }
+
+a.a1{
+  color: black;
+  text-decoration: none;
+  background: red;
+  transition: .5s;
+}
+
 .checkbtn{
   font-size: 30px;
   color: black;
