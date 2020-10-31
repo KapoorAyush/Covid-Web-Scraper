@@ -37,6 +37,17 @@ body{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+#points1{
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px;
+  width: 70%;
+  margin: auto 15%;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 400px;
+}
 h2{
 	text-align: center;
 }
